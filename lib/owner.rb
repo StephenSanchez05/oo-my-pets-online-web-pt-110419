@@ -40,6 +40,7 @@ class Owner
       if cat == self
         array << Cat
       end
+    end
     array
   end
   
