@@ -36,7 +36,8 @@ class Owner
   
   def cats
     array = []
-    array << Cat.new
+    Cat.all.each do |cat|
+      
     array
   end
   
