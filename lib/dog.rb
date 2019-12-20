@@ -24,7 +24,7 @@ class Dog
     @owner
   end
   
-  def happy
+  def self.happy
     @mood = "happy"
   end
   
