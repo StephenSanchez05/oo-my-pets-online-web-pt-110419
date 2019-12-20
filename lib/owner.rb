@@ -37,7 +37,9 @@ class Owner
   def cats
     Cat.all.each do |name, mood, owner, species|
       if owner == self
-        @@cat_array <<
+        @@cat_array << name
+      end 
+    end
   end
   
 end
