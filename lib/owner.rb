@@ -36,8 +36,10 @@ class Owner
   
   def cats
     array = []
-    Cat.all.each do |cat|
-      
+    Cat.owner do |cat|
+      if cat == self
+        array << Cat
+      end
     array
   end
   
