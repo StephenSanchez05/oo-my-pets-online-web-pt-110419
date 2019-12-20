@@ -21,5 +21,9 @@ class Cat
     @@all
   end
   
+  def owner
+    @owner
+  end
+  
   
 end
