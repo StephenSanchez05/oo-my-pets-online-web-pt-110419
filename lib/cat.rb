@@ -25,13 +25,5 @@ class Cat
     @owner
   end
   
-  def happy
-    @mood = "happy"
-  end
-  
-  def nervous
-    @mood = "nervous"
-  end
-  
   
 end
