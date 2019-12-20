@@ -38,7 +38,7 @@ class Owner
     array = []
     Cat.all.each do |cat|
       if cat.owner == self
-        array << Cat
+        array << cat
       end
     end
     array
