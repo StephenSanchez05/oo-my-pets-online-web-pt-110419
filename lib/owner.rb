@@ -42,7 +42,7 @@ class Owner
     array
   end
   
-    def cats
+    def dogs
     array = []
     Cat.all.each do |cat|
       if cat.owner == self
