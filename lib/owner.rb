@@ -34,7 +34,7 @@ class Owner
     @@all.clear
   end
   
-  def new_cat
-    @@cat_array << Cat.new
+  def cats
+    
   
 end
