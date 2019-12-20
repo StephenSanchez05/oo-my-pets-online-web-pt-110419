@@ -77,6 +77,9 @@ class Owner
       cat.mood = "nervous"
       cat.owner = nil
     end
+    
+    def list_pets(dog = self.dogs, cat = self.cat)
+     "I have #{dog} dog(s), and #{cat} cat(s)."
   end
   
 end
