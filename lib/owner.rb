@@ -70,6 +70,6 @@ class Owner
   
   def sell_pets
     self.dogs.each { |dog| dog.mood = "nervous" }
-    self.cats.each { |dog| dog.mood = "nervous" }
+    self.cats.each  do { |dog| dog.mood = "nervous" }
   
 end
