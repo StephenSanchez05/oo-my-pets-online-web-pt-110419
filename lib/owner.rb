@@ -39,6 +39,7 @@ class Owner
       if owner == self
         @@cat_array << name
       end 
+      @@cat_array
     end
   end
   
