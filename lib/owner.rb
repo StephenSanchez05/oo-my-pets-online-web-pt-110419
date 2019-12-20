@@ -78,8 +78,8 @@ class Owner
       cat.owner = nil
     end
     
-    def list_pets(dog = self.dogs, cat = self.cat)
-     "I have #{dog} dog(s), and #{cat} cat(s)."
+    def list_pets
+     "I have #{self.dogs.count} dog(s), and #{self.cats.count} cat(s)."
   end
   
 end
